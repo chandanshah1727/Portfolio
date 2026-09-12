@@ -1,0 +1,542 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chandan Shah — Computer Science student and aspiring software developer. Portfolio showcasing projects, skills, and education." />
+  <meta name="author" content="Chandan Shah" />
+  <title>Chandan Shah | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome (icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">Chandan Shah</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-greeting">Hi,</p>
+          <h1 class="hero-name">Chandan Shah</h1>
+          <h2 class="hero-title">Computer Science Student &amp; Aspiring Software Developer</h2>
+          <p class="hero-desc">
+            I build practical projects, solve programming problems, and explore technologies in
+            software development, machine learning, and artificial intelligence.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+
+          <!-- REPLACE: Update these social / contact links with your preferred URLs -->
+          <div class="hero-social">
+            <!-- REPLACE: GitHub URL -->
+            <a href="https://github.com/chandanshah1727" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <!-- REPLACE: LinkedIn URL -->
+            <a href="https://www.linkedin.com/in/chandan-shah-260649336" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <!-- REPLACE: Email address -->
+            <a href="mailto:Chandanshah17012006@gmail.com" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Developer-themed visual (terminal card) -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="terminal-card">
+            <div class="terminal-bar">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="terminal-title">chandan@dev:~</span>
+            </div>
+            <pre class="terminal-body"><code><span class="t-comment">// building toward impact</span>
+<span class="t-keyword">const</span> developer = {
+  name: <span class="t-string">"Chandan Shah"</span>,
+  role: <span class="t-string">"CS Student"</span>,
+  focus: [
+    <span class="t-string">"Software Dev"</span>,
+    <span class="t-string">"Web"</span>,
+    <span class="t-string">"AI / ML"</span>
+  ],
+  status: <span class="t-string">"learning &amp; building"</span>
+};
+
+<span class="t-keyword">while</span> (curious) {
+  learn();
+  build();
+  improve();
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">About</p>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">A short introduction to who I am and what I’m working toward.</p>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-image-wrap">
+            <!-- REPLACE: Replace assets/profile.jpg with your own professional photo -->
+            <img
+              src="assets/profile.jpg"
+              alt="Portrait of Chandan Shah"
+              class="about-image"
+              width="320"
+              height="320"
+            />
+          </div>
+
+          <div class="about-text">
+            <p>
+              I’m <strong>Chandan Shah</strong>, a Computer Science student at
+              <strong>Lovely Professional University</strong> and an aspiring software developer.
+              I’m interested in software development, web development, data structures &amp; algorithms,
+              machine learning, NLP, and artificial intelligence.
+            </p>
+            <p>
+              My journey so far has been shaped by coursework, coding practice, and hands-on projects —
+              from web interfaces to Java-based systems and explorations in AI-related topics.
+              I enjoy turning ideas into working software and continuously improving how I write and structure code.
+            </p>
+            <p>
+              My goal is to grow into a skilled software developer who builds reliable products,
+              solves real problems, and keeps learning as technology evolves.
+            </p>
+          </div>
+        </div>
+
+        <!-- REPLACE: Update these placeholder statistics with your real numbers -->
+        <div class="stats-grid">
+          <article class="stat-card">
+            <span class="stat-number" data-target="3">0</span>
+            <span class="stat-label">Projects Completed</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-number" data-target="10">0</span>
+            <span class="stat-label">Technologies Learned</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-number" data-target="50">0</span>
+            <span class="stat-label">DSA Problems Solved</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-label-only">Currently Learning</span>
+            <span class="stat-focus">AI / ML &amp; Web Dev</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Skills</p>
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Tools and languages I’m building with through coursework and projects.</p>
+        </header>
+
+        <div class="skills-categories">
+          <article class="skill-category">
+            <h3><i class="fas fa-code"></i> Programming</h3>
+            <div class="skill-cards">
+              <div class="skill-card"><i class="fas fa-laptop-code"></i><span>C++</span></div>
+              <div class="skill-card"><i class="fab fa-java"></i><span>Java</span></div>
+              <div class="skill-card"><i class="fab fa-python"></i><span>Python</span></div>
+              <div class="skill-card"><i class="fas fa-terminal"></i><span>C</span></div>
+            </div>
+          </article>
+
+          <article class="skill-category">
+            <h3><i class="fas fa-globe"></i> Web Development</h3>
+            <div class="skill-cards">
+              <div class="skill-card"><i class="fab fa-html5"></i><span>HTML</span></div>
+              <div class="skill-card"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+              <div class="skill-card"><i class="fab fa-js"></i><span>JavaScript</span></div>
+            </div>
+          </article>
+
+          <article class="skill-category">
+            <h3><i class="fas fa-brain"></i> AI / Machine Learning</h3>
+            <div class="skill-cards">
+              <div class="skill-card"><i class="fas fa-robot"></i><span>Machine Learning</span></div>
+              <div class="skill-card"><i class="fas fa-language"></i><span>NLP</span></div>
+              <div class="skill-card"><i class="fas fa-database"></i><span>DBMS</span></div>
+            </div>
+          </article>
+
+          <article class="skill-category">
+            <h3><i class="fas fa-toolbox"></i> Tools</h3>
+            <div class="skill-cards">
+              <div class="skill-card"><i class="fab fa-git-alt"></i><span>Git</span></div>
+              <div class="skill-card"><i class="fab fa-github"></i><span>GitHub</span></div>
+              <div class="skill-card"><i class="fas fa-code"></i><span>VS Code</span></div>
+              <div class="skill-card"><i class="fas fa-keyboard"></i><span>Cursor</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <!-- To add a new project: copy one .project-card block and update title, description, tags, and links -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Work</p>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Selected academic and personal projects I’ve built so far.</p>
+        </header>
+
+        <div class="projects-grid">
+          <!-- Project 1: Vehicle Rental System -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/projects/vehicle-rental.jpg" alt="Vehicle Rental System preview" />
+            </div>
+            <div class="project-body">
+              <h3>Vehicle Rental System</h3>
+              <p>
+                Console-based Java application for managing car, bike, scooter, and EV rentals —
+                including availability tracking, customer management, billing, and input validation
+                using OOP and file handling.
+              </p>
+              <div class="project-tags">
+                <span>Java</span>
+                <span>OOP</span>
+                <span>File Handling</span>
+              </div>
+              <div class="project-links">
+                <!-- REPLACE: Project GitHub URL -->
+                <a href="https://github.com/chandanshah1727" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <!-- Live demo not available for console app -->
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Clothing Store -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/projects/clothing-store.jpg" alt="Clothing Store preview" />
+            </div>
+            <div class="project-body">
+              <h3>Clothing Store</h3>
+              <p>
+                Responsive clothing store website with product listings, category navigation,
+                filtering, dynamic UI, and a shopping cart — built with HTML, CSS, and JavaScript.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <!-- REPLACE: Project GitHub URL -->
+                <a href="https://github.com/chandanshah1727" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <!-- REPLACE: Live Demo URL (or remove this button if none) -->
+                <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Adaptive Resource Allocator -->
+          <article class="project-card">
+            <div class="project-thumb">
+              <img src="assets/projects/resource-allocator.jpg" alt="Adaptive Resource Allocator preview" />
+            </div>
+            <div class="project-body">
+              <h3>Adaptive Resource Allocator</h3>
+              <p>
+                Real-time system to monitor and manage CPU and memory usage of running processes,
+                with adaptive allocation, performance charts, and alerts based on process priority and load.
+              </p>
+              <div class="project-tags">
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>System Monitoring</span>
+              </div>
+              <div class="project-links">
+                <!-- REPLACE: Project GitHub URL -->
+                <a href="https://github.com/chandanshah1727" class="btn btn-sm btn-outline" target="_blank" rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <!-- REPLACE: Live Demo URL (or remove this button if none) -->
+                <a href="#" class="btn btn-sm btn-primary" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!--
+            OPTIONAL: NLP / Machine Learning project placeholder
+            Uncomment and fill in when you have a project ready.
+
+          <article class="project-card">
+            <div class="project-thumb project-thumb-placeholder">
+              <i class="fas fa-brain"></i>
+            </div>
+            <div class="project-body">
+              <h3>NLP / Machine Learning Project</h3>
+              <p>Short description of your NLP or ML project goes here.</p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>NLP</span>
+                <span>ML</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EDUCATION ========== -->
+    <section class="section education" id="education">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Background</p>
+          <h2 class="section-title">Education</h2>
+          <p class="section-subtitle">Academic path, training, and certifications.</p>
+        </header>
+
+        <div class="timeline">
+          <!-- REPLACE: Update college details if needed -->
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Aug 2024 – May 2028</span>
+              <h3>B.Tech in Computer Science and Engineering</h3>
+              <p class="timeline-place">Lovely Professional University — Phagwara, Punjab</p>
+              <p class="timeline-meta">CGPA: 7.21</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Apr 2023 – May 2024</span>
+              <h3>Intermediate (Class XII)</h3>
+              <p class="timeline-place">S.G.N International School — Ludhiana, Punjab</p>
+              <p class="timeline-meta">Percentage: 73.2%</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Apr 2021 – May 2022</span>
+              <h3>High School (Class X)</h3>
+              <p class="timeline-place">S.G.N International School — Ludhiana, Punjab</p>
+              <p class="timeline-meta">Percentage: 80.4%</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="edu-extra">
+          <article class="edu-card">
+            <h3><i class="fas fa-book-open"></i> Relevant Focus</h3>
+            <ul>
+              <li>Data Structures &amp; Algorithms</li>
+              <li>Object-Oriented Programming</li>
+              <li>Web Development</li>
+              <li>Database Management Systems</li>
+              <li>AI / Machine Learning foundations</li>
+            </ul>
+          </article>
+
+          <article class="edu-card">
+            <h3><i class="fas fa-certificate"></i> Training</h3>
+            <ul>
+              <li>
+                <strong>CipherSchools</strong> (Jun 2026 – Jul 2026) —
+                Java with OOPs, Spring Boot, and Web Development;
+                built an enterprise Vehicle Rental System with CLI and backend logic.
+              </li>
+            </ul>
+          </article>
+
+          <article class="edu-card">
+            <h3><i class="fas fa-award"></i> Certifications</h3>
+            <ul>
+              <!-- Only certificates you have provided / listed -->
+              <li>Database Management System — Infosys (Jul 2026)</li>
+              <li>Generative AI Essentials — CipherSchools (Aug 2026)</li>
+              <li>Java with OOPs — CipherSchools (Aug 2026)</li>
+              <li>Low Level System Design — CipherSchools (Aug 2026)</li>
+              <li>Git and GitHub — CipherSchools (Aug 2026)</li>
+              <li>Programming Using C++ — Infosys Springboard (Aug 2025)</li>
+              <li>C Programming (15+ hrs MOOC) — Coding Tantra (Jan 2025)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== RESUME ========== -->
+    <section class="section resume" id="resume">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Resume</p>
+          <h2 class="section-title">My Resume</h2>
+          <p class="section-subtitle">A snapshot of my experience, projects, and education.</p>
+        </header>
+
+        <!-- REPLACE: Update assets/resume.png if you replace your CV image -->
+        <div class="resume-preview">
+          <img
+            src="assets/resume.png"
+            alt="Chandan Shah resume"
+            class="resume-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-eyebrow">Contact</p>
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Open to internships, collaborations, and learning opportunities.</p>
+        </header>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <!-- REPLACE: Email -->
+            <a class="contact-item" href="mailto:Chandanshah17012006@gmail.com">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">Chandanshah17012006@gmail.com</span>
+              </div>
+            </a>
+            <!-- REPLACE: LinkedIn URL -->
+            <a class="contact-item" href="https://www.linkedin.com/in/chandan-shah-260649336" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin-in"></i>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">linkedin.com/in/chandan-shah-260649336</span>
+              </div>
+            </a>
+            <!-- REPLACE: GitHub URL -->
+            <a class="contact-item" href="https://github.com/chandanshah1727" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-github"></i>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">github.com/chandanshah1727</span>
+              </div>
+            </a>
+            <a class="contact-item" href="tel:+919779095448">
+              <i class="fas fa-phone"></i>
+              <div>
+                <span class="contact-label">Phone</span>
+                <!-- REPLACE: Phone number if needed -->
+                <span class="contact-value">+91 97790 95448</span>
+              </div>
+            </a>
+          </div>
+
+          <!--
+            CONTACT FORM:
+            Currently uses mailto: (opens the visitor's email app).
+            To use Formspree later:
+              1. Create a form at https://formspree.io
+              2. Replace action below with your Formspree endpoint
+              3. Change method to "POST"
+              4. Remove the JavaScript mailto handler in script.js
+          -->
+          <form class="contact-form" id="contact-form" action="mailto:Chandanshah17012006@gmail.com" method="get" enctype="text/plain">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Chandan Shah. All Rights Reserved.</p>
+      <div class="footer-social">
+        <a href="https://github.com/chandanshah1727" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/chandan-shah-260649336" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:Chandanshah17012006@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
